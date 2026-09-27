@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: firstjobapp
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jobdb
+    username: root
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
